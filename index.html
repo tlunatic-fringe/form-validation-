@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form (Test JavaScript Form Validation)</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body text="cornsilk">
+    <h3>Test JavaScript Form Validation</h3>
+    <div>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Type your name here" required>
+    </div>
+    <div>
+        <label for="address">Address</label>
+        <input id="address" name="address" type="text" placeholder="Type your address here">
+    </div>
+    <div>
+        <label for="zip">Zip Code</label>
+        <input id="zip" name="zip" type="number" required>
+    </div>
+    <div>
+        Country
+        <select name="country" id="country" required>
+            <option value="please select">Please select</option>
+            <option value="bangladesh">Bangladesh</option>
+            <option value="ohters">Ohters</option>
+
+        </select>
+    </div>
+    <div>
+        Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input class="gen" id="male" name="gender" type="radio"> Male
+        <input class="gen" id="female" name="gender" type="radio">Female
+        <input class="gen" id="others" name="gender" type="radio">Others
+    </div>
+    <div>
+        Preferences&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input id="red" name="red" type="checkbox">Red
+        <input id="green" type="checkbox">Green
+        <input id="blue" name="blue" type="checkbox">Blue
+    </div>
+    <div>
+        <label for="phone">Phone</label>
+        <input id="phone" name="phone" type="tel" value="+880" required>
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" required>
+    </div>
+    <div>
+        <label for="recheck">Verify password</label>
+        <input id="recheck" name="recheck" type="password">
+    </div>
+    <div>
+        <button class="but" type="submit">Send</button>
+        <button class="but" type="reset">Clear</button>
+    </div>
+
+
+
+
+</body>
+
+</html>

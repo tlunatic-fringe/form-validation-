@@ -1,0 +1,33 @@
+body {
+    font-family: Helvetica;
+    background-image: url(Images/bg.jpg);
+    background-size: 100%, 100%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+caption {
+    font-weight: bold;
+}
+
+div {
+    padding: 10px;
+}
+
+select {
+    position: relative;
+    left: 245px;
+}
+
+label {
+    width: 300px;
+    display: inline-block;
+}
+
+
+
+.but {
+    position: relative;
+    left: 305px;
+    background-color: darksalmon;
+}
